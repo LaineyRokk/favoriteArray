@@ -7,6 +7,7 @@ $(document).ready(function() {
     var band = $('input#band').val();
     var movie = $('input#movie').val();
     var list = [color, food, animal, curse, band, movie];
+
     $("#result").text(list);
     $("#array").show();
 
