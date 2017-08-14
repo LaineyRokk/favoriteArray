@@ -9,7 +9,9 @@ $(document).ready(function() {
     var list = [color, food, animal, curse, band, movie];
     var zero = list.splice(0, 3);
     var newArray = zero;
-    $("#result").text(newArray);
+    $(".result1").text(newArray[0]);
+    $(".result2").text(newArray[1]);
+    $(".result3").text(newArray[2]);
     $("#array").show();
 
     event.preventDefault();
